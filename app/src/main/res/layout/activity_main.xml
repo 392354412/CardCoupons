@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="5dp"
     tools:context="card.com.cardcoupons.MainActivity">
 
     <card.com.cardcoupons.CardCouponsView
@@ -32,7 +34,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="美食劵"
+                android:text="优惠券"
                 android:textSize="18dp"/>
 
             <TextView
